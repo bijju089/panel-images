@@ -57,7 +57,7 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 - [Java 22 GraalVM JDK](https://github.com/bijju089/panel-images/tree/main/java-graalvm/22)
   - `ghcr.io/bijju089/panel-images:java_22_graalvm`
 
-### Java OpenJ9 [AMD64/ARM64]
+### Java OpenJ9 [AMD64]
 
 - [Java 8 OpenJ9](https://github.com/bijju089/panel-images/tree/main/java-openj9/8)
   - `ghcr.io/bijju089/panel-images:java_8_openj9`
