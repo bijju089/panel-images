@@ -1,4 +1,4 @@
-FROM        adoptopenjdk:16-jdk-openj9
+FROM        ibm-semeru-runtimes:open-16-jdk
 
 LABEL       author="Bijju089" maintainer="me@bijjuxd.me"
 LABEL       org.opencontainers.image.source="https://github.com/bijju089/panel-images"
