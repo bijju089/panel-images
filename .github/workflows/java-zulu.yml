@@ -20,7 +20,7 @@ concurrency:
 
 jobs:
   push:
-    name: "pterodactyl-images:java_${{ matrix.tag }}_zulu"
+    name: "panel-images:java_${{ matrix.tag }}_zulu"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -61,4 +61,4 @@ jobs:
           platforms: linux/amd64, linux/arm64
           file: ./java-zulu/${{ matrix.tag }}/Dockerfile
           push: true
-          tags: ghcr.io/software-noob/pterodactyl-images:java_${{ matrix.tag }}_zulu
+          tags: ghcr.io/bijju089/panel-images:java_${{ matrix.tag }}_zulu
